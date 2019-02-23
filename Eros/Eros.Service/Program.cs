@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore;
+﻿using Common.Service.Serilog;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Serilog;
 
 namespace Eros.Service
 {
@@ -13,7 +13,6 @@ namespace Eros.Service
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder<Startup>(args)
-                .UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
-                    .ReadFrom.Configuration(hostingContext.Configuration));
+                .UseCustomSerilog();
     }
 }
