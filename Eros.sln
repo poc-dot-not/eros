@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eros.Service", "Eros\Eros.Service\Eros.Service.csproj", "{0B7B00C8-13C2-4B03-BF7D-B28283E33487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eros.Service", "src\Eros.Service\Eros.Service.csproj", "{0B7B00C8-13C2-4B03-BF7D-B28283E33487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
